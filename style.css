@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background: radial-gradient(circle at center, #0d1520 0%, #070c13 50%, #04080d 100%);
+  color: #edf6ff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+canvas {
+  width: min(96vw, 960px);
+  height: auto;
+  display: block;
+  border: 2px solid rgba(140, 186, 255, 0.18);
+  background: linear-gradient(#0d1721, #070d17);
+  box-shadow: 0 0 32px rgba(28, 83, 120, 0.6);
+}
